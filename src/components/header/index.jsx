@@ -6,9 +6,13 @@ function Header() {
       <div>
         <Logo />
       </div>
-      {/* <nav>
-        <a target="_blank" href="http://github.com/bariskndmr" rel="noreferrer">
-          Projects
+      <nav>
+        <a
+          target="_blank"
+          href="mailto:bariskandemirx@gmail.com"
+          rel="noreferrer"
+        >
+          Contact
         </a>
         <a
           target="_blank"
@@ -17,7 +21,7 @@ function Header() {
         >
           About Me
         </a>
-      </nav> */}
+      </nav>
     </header>
   );
 }
