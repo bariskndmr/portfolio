@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    a {
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        transition: 10s;
+        text-decoration: underline;
+      }
+
+      &:not(:first-child) {
+        margin-left: 30px;
+      }
+    }
+  }
+}
