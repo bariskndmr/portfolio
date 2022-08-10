@@ -1,4 +1,4 @@
-import { Article, Footer, Header } from "../components";
+import { Article, Footer, Header } from "../../components";
 
 function Home() {
   return (

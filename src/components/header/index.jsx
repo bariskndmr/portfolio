@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Logo } from "../../svgs/index";
 
 function Header() {
@@ -14,13 +15,11 @@ function Header() {
         >
           Contact
         </a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/barış-kandemir/"
-          rel="noreferrer"
-        >
-          About Me
-        </a>
+        <Link to="/about">
+          <a target="_blank" href="#" rel="noreferrer">
+            About Me
+          </a>
+        </Link>
       </nav>
     </header>
   );
